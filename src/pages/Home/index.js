@@ -35,7 +35,7 @@ export default Home = () => {
   const navigation = useNavigation();
 
   const [location, setLocation] = useState(null);
-  const [message, setMessage] = useState('Carregando...');
+  const [message, setMessage] = useState('Loading...');
 
   useEffect(() => {
     const getPosition = async () => {
