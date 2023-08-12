@@ -67,7 +67,7 @@ export default Home = () => {
   const navigateToHealthCenter = () => {
     navigation.navigate('Chart', { 
         userLocation: location, 
-        category: 'POSTO DE SAUDE', 
+        category: 'HEALTH CENTER', 
         icon: 'medical-bag' 
       }
     );
@@ -76,7 +76,7 @@ export default Home = () => {
   const navigateToSamu = () => {
     navigation.navigate('Chart', { 
         userLocation: location, 
-        category: 'SAMU', 
+        category: 'FIND', 
         icon: 'ambulance' 
       }
     );
